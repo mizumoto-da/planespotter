@@ -91,3 +91,8 @@ Now test if redis is ready using the CLI and enter `ping`
 redis-cli
 127.0.0.1:6379> ping
 ```
+
+Enable Redis to start when your server boots, you can enable the systemd service.
+```
+sudo systemctl enable redis
+```
